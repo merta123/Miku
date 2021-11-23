@@ -13,9 +13,9 @@
    "clientsettings": {
       "nodes": [
          {
-            "host": "lavalinknl.ml",
-            "port": 2333,
-            "password": "Raccoon"
+            "host": "main.paras888.repl.co",
+            "port": 443,
+            "password": "youshallnotpass"
          }
       ]
    },
