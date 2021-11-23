@@ -13,9 +13,9 @@
    "clientsettings": {
       "nodes": [
          {
-            "host": "lavalinknl.ml",
-            "port": 2333,
-            "password": "Raccoon"
+            "host": "lavalink-railways2-production-676f.up.railway.app",
+            "port": 443,
+            "secure": true
          }
       ]
    },
