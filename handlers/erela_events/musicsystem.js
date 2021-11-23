@@ -490,10 +490,8 @@ function generateQueueEmbed(client, guildId, leave) {
     new MessageEmbed()
     .setColor(es.color)
     .setTitle(`📃 Queue of __${guild.name}__`)
-    .setDescription(`**Currently there are __0 Songs__ in the Queue**`)
-    .setThumbnail(guild.iconURL({
-      dynamic: true
-    })),
+    .setImage("https://media.discordapp.net/attachments/890487988700741682/909385518087815168/20211114_181255.png?size=4096")
+    .setDescription(`**Currently there are __0 Songs__ in the Queue**`),
     new MessageEmbed()
     .setColor(es.color)
     .setFooter(es.footertext, guild.iconURL({
@@ -501,9 +499,9 @@ function generateQueueEmbed(client, guildId, leave) {
     }))
     .setImage(guild.banner ? guild.bannerURL({
       size: 4096
-    }) : "https://cdn.discordapp.com/banners/773668217163218944/35b7971da6ede8f1ee91e805e422c62a.webp?size=4096")
+    }) : "https://media.discordapp.net/attachments/890487988700741682/909388287188291614/miku_nakano_wallpaper_by_jccf11_dei5tbr-pre.jpg?size=4096")
     .setTitle(`Start Listening to Music, by connecting to a Voice Channel and sending either the **SONG LINK** or **SONG NAME** in this Channel!`)
-    .setDescription(`> *I support <:Youtube:840260133686870036> Youtube, <:Spotify:846090652231663647> Spotify, <:soundcloud:825095625884434462> Soundcloud and direct MP3 Links!*`)
+    .setDescription(`> *I support <a:yt:883639024680583188> Youtube, <:spotify:909669866787733554> Spotify, <:soundcloud:909669943908384788> Soundcloud and direct MP3 Links!*`)
   ]
   const player = client.manager.players.get(guild.id);
   if (!leave && player && player.queue && player.queue.current) {
